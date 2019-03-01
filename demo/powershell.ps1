@@ -49,7 +49,7 @@ try {
     .\thisonewithoutparams.ps1
 
     #little bit of SharePoint *the original issue* :D
-    $web = Get-SPWeb http://mysharepointsite
+    $web = Get-SPWeb https://mysharepointsite
     $list = $web.Lists["ListName"]
     $query = New-Object Microsoft.SharePoint.SPQuery
     $query.Query= "CAMLQuery here"

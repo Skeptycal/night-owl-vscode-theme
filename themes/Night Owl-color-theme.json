@@ -237,6 +237,7 @@
     },
     {
       "name": "Global settings",
+      "scope": "global",
       "settings": {
         "background": "#011627",
         "foreground": "#d6deeb"
